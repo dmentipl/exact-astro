@@ -1,2 +1,4 @@
-# exact-hydro
-Exact solutions to astrophysical hydrodynamics problems
+exact-hydro
+===========
+
+Exact solutions to astrophysical hydrodynamics problems.
