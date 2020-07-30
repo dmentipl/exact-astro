@@ -11,7 +11,7 @@ __version__ = re.search(
     io.open('exact/__init__.py', encoding='utf_8_sig').read(),
 ).group(1)
 
-install_requires = ['numba', 'numpy']
+install_requires = ['numpy', 'scipy']
 packages = ['exact']
 
 description = 'Exact solutions to astrophysical problems.'
