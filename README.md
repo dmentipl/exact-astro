@@ -1,4 +1,4 @@
-exact-hydro
+exact-astro
 ===========
 
-Exact solutions to astrophysical hydrodynamics problems.
+Exact solutions to astrophysical problems.

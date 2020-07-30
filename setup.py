@@ -1,4 +1,4 @@
-"""exact-hydro setup.py."""
+"""exact-astro setup.py."""
 
 import io
 import pathlib
@@ -14,7 +14,7 @@ __version__ = re.search(
 install_requires = ['numba', 'numpy']
 packages = ['exact']
 
-description = 'Exact solutions to astrophysical hydrodynamics problems.'
+description = 'Exact solutions to astrophysical problems.'
 long_description = (pathlib.Path(__file__).parent / 'README.md').read_text()
 
 setup(
@@ -22,7 +22,7 @@ setup(
     version=__version__,
     author='Daniel Mentiplay',
     author_email='d.mentiplay@gmail.com',
-    url='https://github.com/dmentipl/exact-hydro',
+    url='https://github.com/dmentipl/exact-astro',
     description=description,
     long_description=long_description,
     long_description_content_type='text/markdown',
