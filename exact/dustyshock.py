@@ -3,6 +3,7 @@
 See the following references:
 
 - Lehmann A., Wardle M., 2018, MNRAS, 476, 3185
+- Benítez-Llambay P., Krapp L., Pessah M. E., 2019, ApJS, 241, 25
 """
 
 import numpy as np
