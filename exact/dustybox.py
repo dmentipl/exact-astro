@@ -37,14 +37,14 @@ def delta_vx(
     See Table (1) in Laibe and Price (2011) MNRAS, 418, 1491, and
     see Equation (64) in Laibe and Price (2014) MNRAS, 444, 1940.
     """
-    omega = _drag_matrix(t_s, eps)
+    omega = drag_matrix(t_s, eps)
 
     if omega.size > 1:
         return expm(-omega * time) @ delta_vx_init
     return np.exp(-omega[0, 0] * time) * delta_vx_init
 
 
-def _drag_matrix(t_s: ndarray, eps: ndarray) -> ndarray:
+def drag_matrix(t_s: ndarray, eps: ndarray) -> ndarray:
     """Drag matrix for multiple dust species.
 
     Parameters
